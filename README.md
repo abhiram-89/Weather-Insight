@@ -1,0 +1,1 @@
+Weather Insight is a sleek and user-friendly web application that provides real-time weather updates for any city. Get accurate and current weather information including temperature, humidity, wind speed, and a brief description of the weather conditions. 
