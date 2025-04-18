@@ -14,9 +14,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap" rel="stylesheet">
 
-    <!-- CSS link -->
-    <link rel="stylesheet" href="weather.css">
-
 </head>
 <body>
     <div class="card">
@@ -28,16 +25,65 @@
 
         <div class="weather-loading">
             <h2 class="city"><h1>Weather</h1> <!--<br><span>in Pune</span></h2> -->
-            <div class="temp"><h2>22°C</h2></div>
+            <div class="temp"><h2>__°C</h2></div>
             <div class="date" id="date"></div>
             <div class="desc">
-                <div class="description">Cloudy <!--<i class="fa-solid fa-cloud-sun"></i>--> </div>
+                <div class="description">---- <!--<i class="fa-solid fa-cloud-sun"></i>--> </div>
                 <img src="https://openweathermap.org/img/wn/" alt="" class="icon">
             </div>
-            <div class="humidity">Humidity: 60%</div>
-            <div class="wind">Wind Speed: 6.4 km/hr</div>
+            <div class="humidity">Humidity: 00%</div>
+            <div class="wind">Wind Speed: 00 km/hr</div>
         </div>
     </div>
+
+    <!-- Weekly Forecast Section -->
+<div class="forecast">
+    <h3>7-Day Forecast</h3>
+    <div class="forecast-container">
+        <div class="forecast-day">
+            <h4>Mon</h4>
+            <img src="https://openweathermap.org/img/wn/01d.png" alt="sunny">
+            <p>25°C</p>
+            <p>Sunny</p>
+        </div>
+        <div class="forecast-day">
+            <h4>Tue</h4>
+            <img src="https://openweathermap.org/img/wn/03d.png" alt="cloudy">
+            <p>22°C</p>
+            <p>Cloudy</p>
+        </div>
+        <div class="forecast-day">
+            <h4>Wed</h4>
+            <img src="https://openweathermap.org/img/wn/10d.png" alt="rainy">
+            <p>20°C</p>
+            <p>Rainy</p>
+        </div>
+        <div class="forecast-day">
+            <h4>Thu</h4>
+            <img src="https://openweathermap.org/img/wn/50d.png" alt="foggy">
+            <p>18°C</p>
+            <p>Foggy</p>
+        </div>
+        <div class="forecast-day">
+            <h4>Fri</h4>
+            <img src="https://openweathermap.org/img/wn/02d.png" alt="partly cloudy">
+            <p>24°C</p>
+            <p>Partly Cloudy</p>
+        </div>
+        <div class="forecast-day">
+            <h4>Sat</h4>
+            <img src="https://openweathermap.org/img/wn/13d.png" alt="snowy">
+            <p>5°C</p>
+            <p>Snowy</p>
+        </div>
+        <div class="forecast-day">
+            <h4>Sun</h4>
+            <img src="https://openweathermap.org/img/wn/04d.png" alt="storm">
+            <p>15°C</p>
+            <p>Stormy</p>
+        </div>
+    </div>
+</div>
 
     <!-- Javascript link -->
     <script src="weather.js" defer></script>
